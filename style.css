@@ -50,6 +50,29 @@ ul {
     margin-bottom: 50px;
 }
 
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.success-story-container {
+    display: flex;
+}
+
+.success-story-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 250px;
+}
+
+.success-story-1 img {
+    max-width: 250px;
+}
+
 button{
     width: 100px;
     height: 50px;
