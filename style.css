@@ -32,20 +32,28 @@ ul {
 }
 
 .section-1-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     flex-wrap: wrap;
     max-width: 500px;
+    color: #f9faf8;
+    text-align: center;
+
+}
+
+.section-1-text h1{
+    font-size: 48px;
 }
 
 .section-1-image {
     margin-bottom: 50px;
 }
 
-h1 {
-    font-size: 48px;
-    color: #f9faf8;
-    font-weight: 500px;
-}
-
-p {
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #3882f6;
     color: #f9faf8;
 }
