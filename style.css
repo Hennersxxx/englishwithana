@@ -5,6 +5,7 @@ body {
 
 ul {
     color: #E5E7EB;
+    list-style: none;
 }
 
 .header {
@@ -162,4 +163,17 @@ button{
     border-radius: 10px;
     background-color: #3882f6;
     color: #f9faf8;
+}
+
+.footer {
+    background-color: #1f2937;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
 }
