@@ -129,6 +129,33 @@ ul {
     padding: 100px;
 }
 
+.section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Blue-Box {
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 100px;
+    gap: 100px;
+    border-radius: 10px;
+}
+
+.Blue-Box-Text {
+    color: #f9faf8;
+}
+
+.Blue-Box button {
+    border-color: #f9faf8;
+    border-width: 5px;
+}
+
 button{
     width: 100px;
     height: 50px;
