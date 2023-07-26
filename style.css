@@ -120,6 +120,15 @@ ul {
     max-width: 250px;
 }
 
+.section-3 {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    padding: 100px;
+}
+
 button{
     width: 100px;
     height: 50px;
